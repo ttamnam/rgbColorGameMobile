@@ -6,12 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-	<div class="justify-content-center" id="stripe" style="">
 	<button onclick="showPopup()">Instructions</button>
-	</div>
 
 <!-- The overlay and popup content -->
-<div class="overlay" id="overlay">
+	<div class="overlay" id="overlay">
   <div class="popup">
     <p>Welcome to the RGB Color Game!</p>
     <p>How to play:</p>
@@ -25,10 +23,18 @@
     <div class="square" style="background-color: rgb(125, 200, 50);"></div>
     <p>Example: RGB(125, 200, 50)</p>
 
-    <button onclick="hidePopup(); init();">Start</button>
+    <button onclick="hidePopup()">Start</button>
   </div>
 </div>
-
+	<div class="d-flex justify-content-center">
+		<h1 class="flex-grow-1">
+			The Great 
+			<br>
+			<span id="colorDisplay">RGB</span>
+			<br>
+			Color Game
+		</h1>
+	</div>
 
 	<div class="justify-content-center" id="stripe" style="">
 		<button id="reset">New Colors</button>
