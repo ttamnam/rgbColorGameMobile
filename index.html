@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Color Games</title>
+	<title>Color Game</title>
 	<link rel="stylesheet" type="text/css" href="/Users/ttamnam/Desktop/Sublime Text/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
+	<button onclick="showPopup()">Open Popup</button>
+
+<!-- The overlay and popup content -->
+	<div class="overlay" id="overlay">
+	  <div class="popup">
+	    <p>How to play</p>
+	    <button onclick="hidePopup()">Start</button>
+	  </div>
+	</div>
 	<div class="d-flex justify-content-center">
 		<h1 class="flex-grow-1">
 			The Great 
