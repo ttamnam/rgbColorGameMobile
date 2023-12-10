@@ -104,6 +104,11 @@ button:hover {
       background: #fff;
       padding: 20px;
       text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
     }
 
 .example {
