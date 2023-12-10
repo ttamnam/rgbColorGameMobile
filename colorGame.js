@@ -102,3 +102,11 @@ function randomColor(){
 	return "rgb(" + r + ", " + g + ", " + b + ")";
 
 }
+
+ function showPopup() {
+    document.getElementById('overlay').style.display = 'flex';
+  }
+
+  function hidePopup() {
+    document.getElementById('overlay').style.display = 'none';
+  }
