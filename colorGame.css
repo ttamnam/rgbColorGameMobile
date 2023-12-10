@@ -107,7 +107,7 @@ button:hover {
     }
 
 .example {
-    text-align: center;	
+    display: inline-block;	
     width: 30%;
     background: rgb(10, 200, 10);
     padding-bottom: 30%;
