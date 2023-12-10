@@ -104,12 +104,16 @@ button:hover {
       background: #fff;
       padding: 20px;
       text-align: center;
+	font-size: xx-large;
 	line-height: 1.1;
 	font-weight: normal;
 	color: white;
 	background: steelblue;
 	margin: 0;
     }
+
+div.popup ol li {
+margin: 3%;}
 
 .example {
     display: inline-block;	
